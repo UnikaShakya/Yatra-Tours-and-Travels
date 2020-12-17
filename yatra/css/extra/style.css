@@ -1,0 +1,125 @@
+/*logo*/
+
+.logo{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: -20px;
+}
+
+/* Add a light black background color to the top navigation */
+
+.topnav {
+	margin: 40px auto 0px;
+    background-color: #333;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 1px;
+}
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    display: inline-block;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Add a color to the active/current link */
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+
+
+/*Start of Footer*/
+.footer{
+  width: 100%;
+  color: white;
+  background: #5F9EA0;
+  text-align: center;
+  border: 1px solid #B0C4DE;
+  padding: 1rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+/*End of Footer*/
+/*start of feedback*/
+*{
+  box-sizing:border-box;
+}
+.table
+{
+  display: table;
+  width:100%;
+}
+
+.pageleft
+{
+  color:green;
+/*  background-color: lightblue;*/
+  width:50%;
+  float:left;
+  padding: 10px;
+}
+
+.pageleft p {
+  font-size: 22px;
+}
+.form
+{
+  background-color: #f5fffa;
+  border-radius: 10px;
+}
+.input
+{
+  
+  width:94%;
+  background-color:lightblue;
+  border-radius: 10px;
+  padding: 20px;
+  border: 1px solid #B0C4DE;
+  margin: 20px;
+
+}
+.tdata
+{
+  
+  width:94%;
+  background-color:lightgreen;
+  border-radius: 10px;
+  padding: 20px;
+  border: 1px solid #B0C4DE;
+  margin: 20px;
+
+}
+.message
+{
+  width:94%;
+  background-color:lightblue;
+  border-radius: 10px;
+  padding: 20px;
+  border: 1px solid #B0C4DE;
+  margin: 20px;
+  height: 200px;
+}
+
+.font
+{
+  font-size:20px;
+  font-color:green;
+}

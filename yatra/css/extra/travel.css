@@ -1,0 +1,416 @@
+/*logo*/
+.section{
+  background-image: url("../img/background/bg.png");
+}
+.section1{
+  background-image: url("../img/background/bg.png");
+  min-height: 660px;
+  text-align: center;
+}
+
+.section1 h1 {
+  line-height: 660px;
+}
+
+.logo{
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 30px;
+}
+
+/* Add a light black background color to the top navigation */
+
+}
+
+/*.topnav {*/
+/*  margin: 40px auto 0px;*/
+    /*overflow: hidden;
+    background-color: blue;
+    background: rgba(0, 0, 0, 1);
+    padding: 1px;
+}*/
+
+.topnav {
+/*  margin: 40px auto 0px;*/
+    background-color: #008080;
+    overflow: hidden;
+/*    background: rgba(0, 0, 0, 1);*/
+    padding: 1px;
+}
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    display: inline-block;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Add a color to the active/current link */
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+/*.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}*/
+/*start Marque*/
+.Marque{
+  background-color: cyan;
+} 
+.marque a
+{
+  color: red;
+}
+
+  .slideshow-container
+   {
+    width: 100%;
+    position: relative;
+    margin: auto;
+   }
+   .slideshow-container img {vertical-align: left;}
+
+   .slideshow-container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 1230px;
+  height: 100px;
+  padding: 20px;
+}
+   .mySlides {display: none}
+   .container
+   {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+}
+   .text 
+   {
+  color: black;
+  font-size: 50px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  }
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size:40px;
+    color:black;
+    
+}
+
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size:40px;
+}
+
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 30px;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+}
+.border-img{
+  border: 200px solid;
+  border-color: #f5fffa;
+  border-radius: 200px;
+  padding: 500px;
+  width: 1500px;
+}
+.borderimg { 
+  vitrai border-radius:50%;
+}
+.centered 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  .prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+.column {
+    width: 33.33%;
+    padding: 5px;
+}
+
+.center
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.high
+{ 
+background-color:blue;
+}
+.footer {
+    position: bottom;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height:10%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+/*start of feedback*/
+*{
+  box-sizing:border-box;
+}
+.table
+{
+  display: table;
+  width:100%;
+}
+
+.pageleft
+{
+  color:green;
+/*  background-color: lightblue;*/
+  width:50%;
+  float:left;
+  padding: 10px;
+}
+
+.pageleft p {
+  font-size: 22px;
+}
+.form
+{
+  background-color: #f5fffa;
+  border-radius: 10px;
+}
+.input
+{
+  
+  width:94%;
+  background-color:lightblue;
+  border-radius: 10px;
+  padding: 20px;
+  border: 1px solid #B0C4DE;
+  margin: 20px;
+
+}
+.tdata
+{
+  
+  width:94%;
+  background-color:lightgreen;
+  border-radius: 10px;
+  padding: 20px;
+  border: 1px solid #B0C4DE;
+  margin: 20px;
+
+}
+.message
+{
+  width:94%;
+  background-color:lightblue;
+  border-radius: 10px;
+  padding: 20px;
+  border: 1px solid #B0C4DE;
+  margin: 20px;
+  height: 200px;
+}
+.button {
+  background-color: #89cff0;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+/*  padding: 10px;
+  font-size: 20px;
+  color: white;
+  background: #5F9EA0;
+  border-radius: 5px;*/
+}
+/*End of Feedback*/
+
+/*Start of Gallery*/
+/* Create three equal columns that floats next to each other */
+.gallerycolumn {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.galleryrow:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin-bottom: 15px;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+/*End of Gallery*/
+
+.heading {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Finger Paint', cursive;
+}
+
+.boxed
+{
+  position: relative;
+  width: 90%;
+}
+.boxed th {
+  background-color: orange;
+  font-size: 28px;
+}
+.boxed td {
+  background-color: lightblue;
+  font-size: 25px;
+}
+.boxed p {
+  background-color: lightblue;
+  font-size: 25px;
+}
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align:left;
+}
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.hotel-border{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 300px;
+  height:300px;
+}
+
+.hotel-border:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.polaroid {
+  width: 300;
+  height: 450;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+.hotel-container {
+  text-align: center;
+  padding: 10px 20px;
+  width: 300;
+  height: 150;
+}
+ input[type=radio] {
+    border: 0px;
+    width: 10%;
+    height: 1.5em;
+}
+.element-icon{
+    position: relative;
+}
+ 
+/*replace the content value with the
+corresponding value from the list below*/
+ 
+.element-icon:before {
+    content: "\f007";
+}

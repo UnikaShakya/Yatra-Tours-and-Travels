@@ -1,0 +1,17 @@
+FOR BACKEND
+http://localhost/yatra/admin/admin.php
+
+
+
+
+Feedback message can be viewed from following url
+
+http://localhost/yatra/admin/view.php
+message can be viewed and deleted
+
+
+Database for the the project
+Database Name: travel
+
+step 1:create DB in localhost/phpmyadmin with the name "travel"
+step 2:import the sql file from database folder into creaed DB
